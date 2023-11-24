@@ -18,3 +18,15 @@ git clone https://github.com/Dinarna/Submission-Analisis-Data-Dengan-Python
 pip install -r requirements.txt
 ```
 
+## Setup environment
+```
+conda create --name main-ds python=3.10.9
+conda activate main-ds
+pip install numpy pandas matplotlib seaborn jupyter streamlit 
+```
+
+## Run steamlit app
+```
+streamlit run dashboard.py
+```
+
